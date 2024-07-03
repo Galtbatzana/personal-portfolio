@@ -8,4 +8,4 @@ export function Skills () {
         <Tag title="Java Script" />
         <Tag title="Node"/>
     </div>);
-}
+}                         
