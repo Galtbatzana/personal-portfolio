@@ -4,29 +4,33 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 export function Header() {
     return (
-       <div className="flex sm:w-[343px] lg:w-[1280px] justify-between p-[16px] text-[30] bg-blue-100 items-center">
-            <div className="text-3xl">
-                {`<SS/>`}
-            </div>
-            <div>
-                <div className="sm:hidden lg:flex gap-6 items-center">
-                    <div className="flex gap-6"> 
-                        <p>About</p>
-                        <p>Work</p>
-                        <p>Testimonials</p>
-                        <p>Contact</p>
-                    </div>
-                    <div>
-                        <LuSunMedium />
-                    </div>
-                    <button className="flex w-[136px] h-[36px] bg-black text-white rounded-[10px] px-4 py-1.5 items-center">Download CV</button>
-                </div>
+    
+        <div className="flex h-[36px] sm:w-[343px] lg:w-[1280px] bg-yellow-50 justify-between mx-[80px]">
+            <div className="text-[26px] font-medium text-[#111827] mx-8">
+                {'<SS/>'}
             </div> 
-            <div className="w-[36px] h-[36px] flex items-center lg:hidden"> 
-                <GiHamburgerMenu  className="w-[24px] h-[24px]"/>
-            </div>
+            <div className="sm:hidden lg:flex w-[554px] items-center">
+                <div className="flex gap-6 justify-items-center justify-between items-center">
+                    <p>AboutMe</p>
+                    <p>Work</p>
+                    <p>Testimonials</p>
+                    <p>Contact</p>
+                </div>
+                <span className="w-[24px] text-[#F3F4F6] ml-4 mr-1">|</span>
+                <div className="flex gap-3">
+                    <LuSunMedium className="mt-1.5"/>
+                    <button className="bg-black text-white rounded-[10px] px-4 py-px ml-3">
+                        Download CV
+                    </button>
 
-       </div>
+                </div>
+            </div>
+            <div className="lg:hidden flex size-9 justify-items-center items-center">
+                 <GiHamburgerMenu className="size-6"/>
+            </div>
+        </div>
+
+       
     );
 }
 

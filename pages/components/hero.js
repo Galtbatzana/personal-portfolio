@@ -11,16 +11,17 @@ import { FiFigma } from "react-icons/fi";
 export function Hero() {
     return (
         
-        <div className="flex sm:w-[343px] lg:w-[1280px] bg-blue-200">
-          <div className="flex flex-col gap-12">
-            <div className="h-[300px] w-[343px] relative">
-                <div className="h-[280px] w-[280px] absolute bg-[#E5E7EB] right-[35px] top-[30px]"></div>
+        <div className="flex sm:w-[343px] lg:w-[1280px] bg-blue-200 mx-[80px]">
+          <div className="lg:flex gap-12">
+            <div className="h-[300px] w-[343px] relative lg:order-2 ">
+                <div className="h-[280px] w-[280px] absolute bg-[#E5E7EB] right-[35px] top-[30px]">     
+                </div>
                 <Image className="absolute z-10 right-[50px] top-[10px]" src="/Pic.png" width={240} height={280}/>
             </div>
-            <div className="bg-blue-50 w-[343px] h-[404px]">
+            <div className="bg-blue-50 w-[343px] h-[404px] lg:order-1">
                 <div className="flex bg-amber-100 h-auto">
                     <h1 className="font-bold">Hi, I'm Sagar</h1>
-                    <Handwaving className="h-[36px] w-[36px]"/>              
+                    <Handwaving/>              
                 </div>
 
                 <div className="text-[#4B5563] mb-12">
