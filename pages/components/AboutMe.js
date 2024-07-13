@@ -2,14 +2,13 @@ import Image from "next/image";
 
 export function Aboutme() {
     return (
-        <div className="w-[1440px] h-[auto] bg-red-500">
+        <div className="w-[1440px] h-[auto">
         
-            <div className="bg-red-200 h-[100px] flex items-center justify-center">
+            <div className="h-[100px] flex items-center justify-center">
                 <p className="bg-[#E5E7EB] px-4 py-2 inline text-sm font-medium rounded-full">
                     About me
                 </p>
             </div>
-
 
             <div className="flex g-[48px]">
                 <div className="w-[584px] h-[694px]">
@@ -18,7 +17,7 @@ export function Aboutme() {
                 <div className="flex-col w-[584px] h-[694px]">
                     <div className="text-[30px]">Curious about me? Here yoy have it:</div>
                     <div className="">
-                        I'm passionate, self-proclaned designer who specialize in full stack
+                        I'm passionate, <p className="underline inline-block">self-proclaned designer</p> who specialize in full stack
                         development (React.js & Node.js). I am very enthusiastic about bringing
                         the technical and visual aspects of digital products to life. User experience, 
                         pixel perfect design, and writting clear, readable, highly performant code matter
@@ -39,21 +38,25 @@ export function Aboutme() {
                     <div>
                         When I'm not in full-on developer mode, you can find me hovering around on twitter
                         or on indie hacker, witnessing the journey of early of startups or enjoying some
-                        free time. You can follow me on twitter where I share techrelated bites and building
-                        in public, or you can follw me on Github. 
+                        free time. You can follow me on <p className="underline inline-block">Twitter</p> where I share techrelated bites and building
+                        in public, or you can follw me on <p className="underline inline-block">Github</p>. 
                     </div>
                     <div>
                         Finally, some quick bits about me.
                     </div>
-                    <div>
-                        <ul>
-                            <li>B.E. in Computer Engineering</li>
-                            <li>Avid learner</li>
-                        </ul>
-                        <ul>
-                            <li>Fulltime freelancer</li>
-                            <li>Aspire indie hacker</li>
-                        </ul>
+                    <div className="flex">
+                        <div>
+                            <ul role="list" class="marker:text-black list-disc pl-5 space-y-3">
+                                <li>B.E. in Computer Engineering</li>
+                                <li>Fulltime freelancer</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul role="list" class="marker:text-black list-disc pl-5 space-y-3">
+                                <li>Avid learner</li>
+                                <li>Aspire indie hacker</li>
+                            </ul>
+                        </div>
                     </div>
                     <div>One last thing, i'm available for freelance work, so feel free to reach out and
                         say hello! I promise i don't bite 
