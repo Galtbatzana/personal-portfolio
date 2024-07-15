@@ -2,7 +2,7 @@ export default function Test () {
     return (
         <div>
             <div>
-                <div className="flex">
+                <div className="flex gap-3">
                     <div>Logo</div>
                     <div>Navigation</div>
                     <div>Weather</div>
