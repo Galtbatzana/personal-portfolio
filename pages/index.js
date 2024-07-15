@@ -6,7 +6,7 @@ import { Skills } from "./components/Skills";
 import { Aboutme } from "./components/AboutMe";
 import { Tag } from "./components/Tag";
 import { Example } from "./Example";
-import Test from "./components/test";
+
 
 
 const inter = Inter({ subsets: ["latin"] });
