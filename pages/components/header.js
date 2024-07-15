@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 export function Header() {
     return (
     
-        <div className="flex h-[36px] sm:w-[343px] lg:w-[1280px] bg-yellow-50 justify-between mx-[80px]">
+        <div className="flex h-[36px] sm:w-[343px] lg:w-[1280px] bg-yellow-50 justify-between mx-auto">
             <div className="text-[26px] font-medium text-[#111827] mx-8">
                 {'<SS/>'}
             </div> 

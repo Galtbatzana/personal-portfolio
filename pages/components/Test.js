@@ -1,9 +1,9 @@
 export default function Test () {
     return (
         <div>
-            <div>
+            <div className="w-[1240px] mx-auto">
                 <div className="flex gap-3">
-                    <div>Logo</div>
+                    <div className="w-4 h-4 bg-slate-100 border-solid">Logo</div>
                     <div>Navigation</div>
                     <div>Weather</div>
                 </div>
@@ -21,3 +21,4 @@ export default function Test () {
         </div>
     );
 }
+
