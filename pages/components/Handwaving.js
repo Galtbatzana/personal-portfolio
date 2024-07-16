@@ -1,7 +1,7 @@
 export function Handwaving () {
     return (
     <div>
-        <span class="wave">👋</span>
+        <span className="wave">👋</span>
         
     </div> );
 }
