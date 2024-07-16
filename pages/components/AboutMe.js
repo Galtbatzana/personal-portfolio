@@ -48,13 +48,13 @@ export function Aboutme() {
                     </div>
                     <div className="flex">
                         <div>
-                            <ul role="list" class="marker:text-black list-disc pl-5 space-y-3">
+                            <ul role="list" className="marker:text-black list-disc pl-5 space-y-3">
                                 <li>B.E. in Computer Engineering</li>
                                 <li>Fulltime freelancer</li>
                             </ul>
                         </div>
                         <div>
-                            <ul role="list" class="marker:text-black list-disc pl-5 space-y-3">
+                            <ul role="list" className="marker:text-black list-disc pl-5 space-y-3">
                                 <li>Avid learner</li>
                                 <li>Aspire indie hacker</li>
                             </ul>
