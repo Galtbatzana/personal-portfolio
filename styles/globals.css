@@ -27,7 +27,11 @@
   body { font-size: 1em }
   h1 { font-size: 2.25em }
   
-  main{
-    
+  *{
+    margin: 0;
+  }
 
+  main{
+    max-width: 1440px;
+    margin: auto;
   }

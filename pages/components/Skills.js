@@ -16,24 +16,24 @@ export function Skills () {
 
             <div className="w-[1240px] mx-0">
                 <div className="flex justify-evenly">
-                    <img src="/images/JS.jpg"/>
-                    <img src="/images/Ts.jpg"/>
-                    <img src="/images/React.jpg"/>
-                    <img src="/images/Next.jpg"/>
-                    <img src="/images/Node.jpg"/>
-                    <img src="/images/Ex.jpg"/>
-                    <img src="/images/Nest.jpg"/>
-                    <img src="/images/Socket.jpg"/>
+                    <img src="/images/icon-javscript.png"/>
+                    <img src="/images/icon-typescript.png"/>
+                    <img src="/images/icon-react.png"/>
+                    <img src="/images/icon-nextjs.png"/>
+                    <img src="/images/icon-nodejs.png"/>
+                    <img src="/images/icon-express.png"/>
+                    <img src="/images/icon-nest.png"/>
+                    <img src="/images/icon-socket.png"/>
                 </div>
                 <div className="flex justify-evenly">
-                    <img src="/images/PostgreSQL.jpg"/>
-                    <img src="/images/MongoDB.jpg"/>
-                    <img src="/images/Sass.jpg"/>
-                    <img src="/images/Tailwind.jpg"/>
-                    <img src="/images/Figma.jpg"/>
-                    <img src="/images/Cypress.jpg"/>
-                    <img src="/images/Storybook.jpg"/>
-                    <img src="/images/Git.jpg"/>
+                    <img src="/images/icon-postgresql.png"/>
+                    <img src="/images/icon-mongodb.png"/>
+                    <img src="/images/icon-sass.png"/>
+                    <img src="/images/icon-tailwindcss.png"/>
+                    <img src="/images/icon-figma.png"/>
+                    <img src="/images/icon-cypress.png"/>
+                    <img src="/images/icon-storybook.png"/>
+                    <img src="/images/icon-git.png"/>
                 </div>
             </div>
         </div>
