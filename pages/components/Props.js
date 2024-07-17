@@ -4,7 +4,7 @@ export function Props() {
     return (
         <div className="sm:w-[343px] lg:w-[896px] mx-auto mt-12">
            
-            <div className="flex sm:flex-col lg:flex-row bg-slate-200 mx-auto px-8 py-8 gap-3 bg-white rounded-xl shadow-md">
+            <div className="flex sm:flex-col lg:flex-row mx-auto px-8 py-8 gap-3 bg-white rounded-xl shadow-md">
                 <div className="lg:order-1 w-[254px]">
                     <img src="/images/logo-upwork.png"/>
                 </div>
@@ -16,9 +16,9 @@ export function Props() {
                         Sr. Frontend Developer
                     </div>
                     <ul role="list" className="marker:text-black list-disc pl-5 space-y-3">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Ut pretium arcu et massa semper, id fringilla leo semper.</li>
-                        <li>Sed quis justo ac magna.</li>
+                        
+                        
+                        
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                     </ul>
                 </div>
