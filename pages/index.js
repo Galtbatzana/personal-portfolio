@@ -4,12 +4,17 @@ import { Header } from "./components/header";
 import { Hero } from "./components/hero";
 import { Skills } from "./components/Skills";
 import { Aboutme } from "./components/AboutMe";
-import { Tag } from "./components/Tag";
 import { Example } from "./Example";
-
+import { Visible } from "./components/Visible";
+import { Davtalt } from "./components/Davtalt";
+import { Props } from "./components/Props";
+import { Tags } from "./components/Tags"
+import { Experience } from "./components/Experience";
 
 
 const inter = Inter({ subsets: ["latin"] });
+
+
 
 export default function Home() {
   return (
@@ -18,8 +23,10 @@ export default function Home() {
       <Header />
       <Hero />
       <Aboutme />     
-      {/* <Skills />  */}
-
+      <Skills /> 
+      <Experience/>
+      
+      
     </main> 
   );
 }

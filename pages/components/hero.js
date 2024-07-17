@@ -18,7 +18,7 @@ export function Hero() {
                     <Image className="absolute z-10 right-[50px] top-[10px]" src="/Pic.png" width={240} height={280}/>
                 </div>
             </div>
-            <div className="lg:order-1">
+            <div className="lg:order-1 p-4">
                 <div className="flex bg-amber-100 items-center gap-2">
                         <h1 className="font-bold sm:text-[36px] lg:text-[60px]">
                             Hi, I'm Sagar

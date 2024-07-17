@@ -16,7 +16,7 @@ export function Aboutme() {
                         <Image src="/images/Pic01.png" width={400} height={480} />
                     </div>
                 </div>
-                <div className="lg:flex-col">
+                <div className="lg:flex-col p-4">
                     <div className="text-[30px]">Curious about me? Here yoy have it:</div>
                     <div className="lg:w-[584px]">
                         I'm passionate, <p className="underline inline-block">self-proclaned designer</p> who specialize in full stack
@@ -61,7 +61,8 @@ export function Aboutme() {
                         </div>
                     </div>
                     <div>One last thing, i'm available for freelance work, so feel free to reach out and
-                        say hello! I promise i don't bite
+                        say hello! I promise i don't bite 😉
+                        
                     </div>
                 </div>
 

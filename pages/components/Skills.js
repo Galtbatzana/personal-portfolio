@@ -1,9 +1,9 @@
-import { Tag } from "./Tag";
+import { Tag } from "./Tags";
 import Image from "next/image";
 
 export function Skills () {
     return (
-        <div className="w-[1240px] mx-0">
+        <div className="sm:w-[343px] lg:w-[1280px] mx-auto mt-12">
             
             <div className="h-[100px] flex-col text-center justify-center">
                 <p className="bg-[#E5E7EB] px-4 py-2 inline text-sm font-medium rounded-full">
@@ -14,7 +14,9 @@ export function Skills () {
                 </p>
             </div>
 
-            <div className="w-[1240px] mx-0">
+
+
+            <div>
                 <div className="flex justify-evenly">
                     <img src="/images/icon-javscript.png"/>
                     <img src="/images/icon-typescript.png"/>
