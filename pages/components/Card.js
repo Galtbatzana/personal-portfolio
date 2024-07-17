@@ -17,7 +17,7 @@ export const Card = ({props}) => {
                     </div>
                     <ul role="list" className="marker:text-black list-disc pl-5 space-y-3"> 
                             {listItems.map((item, index) => (
-                            <li>{item}</li>
+                            <li key={item}>{item}</li>
                         ))}
                     </ul>
                 </div>
