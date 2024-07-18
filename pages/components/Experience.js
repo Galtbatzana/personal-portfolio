@@ -37,6 +37,7 @@ export function Experience () {
             {experiences.map((Experience, index)=> (
                 <div key={index}>
                     <Card props={Experience}/>
+                    
                 </div>
             ))}
         </div>

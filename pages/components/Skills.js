@@ -1,5 +1,7 @@
+import { SkillsIcon } from "./SkillsIcon";
 import { Tag } from "./Tags";
 import Image from "next/image";
+
 
 export function Skills () {
     return (
@@ -14,29 +16,11 @@ export function Skills () {
                 </p>
             </div>
 
-
-
             <div>
-                <div className="flex justify-evenly">
-                    <img src="/images/icon-javscript.png"/>
-                    <img src="/images/icon-typescript.png"/>
-                    <img src="/images/icon-react.png"/>
-                    <img src="/images/icon-nextjs.png"/>
-                    <img src="/images/icon-nodejs.png"/>
-                    <img src="/images/icon-express.png"/>
-                    <img src="/images/icon-nest.png"/>
-                    <img src="/images/icon-socket.png"/>
+                <div className="flex justify-evenly ">
+                    <SkillsIcon/>
                 </div>
-                <div className="flex justify-evenly">
-                    <img src="/images/icon-postgresql.png"/>
-                    <img src="/images/icon-mongodb.png"/>
-                    <img src="/images/icon-sass.png"/>
-                    <img src="/images/icon-tailwindcss.png"/>
-                    <img src="/images/icon-figma.png"/>
-                    <img src="/images/icon-cypress.png"/>
-                    <img src="/images/icon-storybook.png"/>
-                    <img src="/images/icon-git.png"/>
-                </div>
+                
             </div>
         </div>
 
