@@ -17,10 +17,9 @@ export function Skills () {
             </div>
 
             <div>
-                <div className="flex justify-evenly ">
+                <div className="flex justify-evenly">
                     <SkillsIcon/>
                 </div>
-                
             </div>
         </div>
 

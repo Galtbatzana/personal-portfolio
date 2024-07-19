@@ -10,6 +10,7 @@ import { Davtalt } from "./components/Davtalt";
 import { Props } from "./components/Props";
 import { Tags } from "./components/Tags"
 import { Experience } from "./components/Experience";
+import { Work } from "./components/Work";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -25,7 +26,7 @@ export default function Home() {
       <Aboutme />     
       <Skills /> 
       <Experience/>
-      
+      <Work />
       
     </main> 
   );
