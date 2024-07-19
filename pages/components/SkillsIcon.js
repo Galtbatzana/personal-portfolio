@@ -67,10 +67,9 @@ const skillsicon = [
     },
 ]; 
 
-
 export function SkillsIcon () {
     return (
-        <div className="flex gap-4 grid sm:grid-cols-3 items-center justify-items-center
+        <div className="gap-4 grid sm:grid-cols-3 items-center justify-items-center
         text-center lg:grid-rows-2">
             {skillsicon.map((skill)=>(
                 <div key={skill.name}>

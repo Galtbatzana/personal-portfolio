@@ -5,24 +5,24 @@ import Image from "next/image";
 
 export function Skills () {
     return (
-        <div className="sm:w-[343px] lg:w-[1280px] mx-auto mt-12">
-            
-            <div className="h-[100px] flex-col text-center justify-center">
-                <p className="bg-[#E5E7EB] px-4 py-2 inline text-sm font-medium rounded-full">
-                    Skills
-                </p>
-                <p className="mt-4">
-                    The skills, tools and Technologies I am really good at:
-                </p>
-            </div>
+        <div className="mx-auto sm:w-[375px] lg:w-[1440px] bg-slate-200">
+            <div className="sm:w-[343px] mx-auto lg:[1280px] mt-12 p-2 bg-white">
+                <div className="h-[100px] flex-col text-center justify-center">
+                    <p className="bg-[#E5E7EB] px-4 py-2 inline text-sm font-medium rounded-full">
+                        Skills
+                    </p>
+                    <p className="m-4 p-2">
+                        The skills, tools and Technologies I am really good at:
+                    </p>
+                </div>
 
-            <div>
-                <div className="flex justify-evenly">
-                    <SkillsIcon/>
+                <div>
+                    <div className="flex justify-evenly pt-4">
+                        <SkillsIcon/>
+                    </div>
                 </div>
             </div>
         </div>
-
     );
 }      
 
