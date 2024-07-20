@@ -11,7 +11,7 @@ import { Props } from "./components/Props";
 import { Tags } from "./components/Tags"
 import { Experience } from "./components/Experience";
 import { Work } from "./components/Work";
-
+import { Footer } from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +27,9 @@ export default function Home() {
       <Skills /> 
       <Experience/>
       <Work />
-      
+      <Work />
+      <Work />
+      <Footer/> 
     </main> 
   );
 }
