@@ -16,11 +16,9 @@ export function Skills () {
                     </p>
                 </div>
 
-                <div>
-                    <div className="flex justify-evenly pt-4">
+                <div className="flex">
                         <SkillsIcon/>
-                    </div>
-                </div>
+                </div> 
             </div>
         </div>
     );

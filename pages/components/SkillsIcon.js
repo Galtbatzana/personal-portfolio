@@ -69,8 +69,7 @@ const skillsicon = [
 
 export function SkillsIcon () {
     return (
-        <div className="gap-4 grid sm:grid-cols-3 items-center justify-items-center
-        text-center lg:grid-rows-2">
+        <div>
             {skillsicon.map((skill)=>(
                 <div key={skill.name}>
                     <Image src={skill.icon} width={40} height={40} />
