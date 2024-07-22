@@ -3,8 +3,8 @@ import Image from "next/image";
 export function Aboutme() {
     return (
         <div className="mx-auto lg:w-[1440px] sm:w-[375px] bg-[#F9FAFB]">
-            <div className="mx-auto pb-4 sm:w-[343px] sm:py-16 lg:w-[1280px] bg-white lg:pb-24">
-                <div className="flex items-center justify-center sm:pb-6 lg:pt-24">
+            <div className="mx-auto pb-4 sm:w-[343px] sm:py-16 lg:w-[1280px] lg:pb-24">
+                <div className="flex items-center justify-center sm:p-6 lg:pt-24">
                     <p className="bg-[#E5E7EB] px-4 py-2 inline text-sm text-[#4B5563] font-medium rounded-full">
                         About me
                     </p>

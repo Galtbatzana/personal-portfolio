@@ -20,24 +20,24 @@ export function Header() {
         setOpen(false);
     }
     return (
-        <div className="mx-auto sm:w-[375px] lg:w-[1280px] bg-slate-200">
-            <div className="flex justify-between mx-auto mt-6 py-2 lg:px-20 sm:px-4">
-
-                <div className="text-[30px] font-bold text-[#111827] p-4">
-                    {'<SS/>'}
-                </div> 
-
-                <div className="sm:hidden lg:flex items-center">
-                    <div className="flex justify-items-center justify-between items-center">
-                        <Navigations/>
-                    </div>
-                    <span className="w-[24px] text-[#F3F4F6] mx-6">|</span>
-                    <div className="flex gap-4">
-                        <LuSunMedium className="mt-1.5 size-6 text-[#4B5563]"/>
-                        <button className="bg-black text-white rounded-[10px] px-4 py-1.5">
-                            Download CV
-                        </button>
-                    </div>
+        
+        <div className="mx-auto sm:w-[375px] lg:w-[1440px] bg-white">
+            <div className="mx-auto sm:w-[375px] lg:w-[1280px] bg-white">
+                <div className="flex justify-between mx-auto mt-6 py-2 lg:px-20 sm:px-4">
+                        <div className="text-[30px] font-bold text-[#111827] p-4">
+                            {'<SS/>'}
+                        </div> 
+                    <div className="sm:hidden lg:flex items-center">
+                        <div className="flex justify-items-center justify-between items-center">
+                            <Navigations/>
+                        </div>
+                        <span className="w-[24px] text-[#F3F4F6] mx-6">|</span>
+                        <div className="flex gap-4">
+                            <LuSunMedium className="mt-1.5 size-6 text-[#4B5563]"/>
+                            <button className="bg-black text-white rounded-[10px] px-4 py-1.5">
+                                Download CV
+                            </button>
+                        </div>
                 </div>
 
                 <div className="lg:hidden flex justify-items-center items-center p-4">
@@ -46,36 +46,36 @@ export function Header() {
 
                 <div className={open ? 'block' : 'hidden'}>
                     <div className={`fixed transition-all inset-0 bg-slate-500/90 ${open ? 'block': 'hidden'}`}>
-                    <div className={`fixed top-0 bottom-0 transition-all ${open ? 'right-0': '-right-full'}  w-[320px] h-[667px] bg-white shadow-lg`}>
-                        <div className="w-[320px] h-[667-px]">
-                            <div className="flex justify-between items-center p-4"> 
-                                <div className="text-[24px] font-semibold">
-                                    {'<SS/>'}
+                        <div className={`fixed top-0 bottom-0 transition-all ${open ? 'right-0': '-right-full'}  w-[320px] h-[667px] bg-white shadow-lg`}>
+                            <div className="w-[320px] h-[667-px]">
+                                <div className="flex justify-between items-center p-4"> 
+                                    <div className="text-[24px] font-semibold">
+                                        {'<SS/>'}
+                                    </div>
+                                    <IoMdClose onClick={closeBurger} className="size-6 text-[#4B5563]"/> 
                                 </div>
-                                <IoMdClose onClick={closeBurger} className="size-6 text-[#4B5563]"/> 
-                            </div>
-                            <div className="h-[176px] w-[320px] border-y-2"> 
-                                <NavigationCol />
-                            </div>
-                            <div className="flex flex-col">
-                                <div className="flex justify-between items-center p-4">
-                                    <p className="text-[#4B5563] text-base">
-                                        Switch Theme
-                                    </p>
-                                    <LuSunMedium className="size-6 text-[#4B5563]"/>
+                                <div className="h-[176px] w-[320px] border-y-2"> 
+                                    <NavigationCol />
                                 </div>
-                                <div className="flex justify-center">
-                                    <button className="bg-black text-white rounded-[12px] py-1.5 px-4 w-[228px]">
-                                            Download CV
-                                    </button>
+                                <div className="flex flex-col">
+                                    <div className="flex justify-between items-center p-4">
+                                        <p className="text-[#4B5563] text-base">
+                                            Switch Theme
+                                        </p>
+                                        <LuSunMedium className="size-6 text-[#4B5563]"/>
+                                    </div>
+                                    <div className="flex justify-center">
+                                        <button className="bg-black text-white rounded-[12px] py-1.5 px-4 w-[228px]">
+                                                Download CV
+                                        </button>
+                                    </div>
+                                </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    </div>
                 </div>
-
             </div>
         </div>
 

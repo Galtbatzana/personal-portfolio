@@ -40,10 +40,12 @@ const skillsicon = [
     {
         icon: "/images/icon-mongodb.png",
         name: "MongoDB",
+        style: "ml-1"
     },
     {
         icon: "/images/icon-sass.png",
         name: "Sass/Scss",
+        sttyle: ""
     },
     {
         icon: "/images/icon-tailwindcss.png",
@@ -69,11 +71,13 @@ const skillsicon = [
 
 export function SkillsIcon () {
     return (
-        <div>
+        <div className="grid sm:grid-cols-3 lg:grid-cols-8 lg:gap-y-16 text-[#4B5563] gap-x-[58px] gap-y-[16px] items-center justify-center">
             {skillsicon.map((skill)=>(
-                <div key={skill.name}>
-                    <Image src={skill.icon} width={40} height={40} />
-                    {skill.name}
+                <div className="flex flex-col justify-center items-center" key={skill.name}>
+                    <img src={skill.icon} />
+                    <div className="mt-2">
+                        {skill.name}
+                    </div>
                 </div>    
             ))}
         </div>

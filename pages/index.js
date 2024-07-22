@@ -19,7 +19,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main  className="max-w-[1440px] h-[auto] bg-red-200">
+    <main  className="max-w-[1440px] mx-auto bg-red-200">
 
       <Header />
       <Hero />
@@ -30,6 +30,7 @@ export default function Home() {
       <Work />
       <Work />
       <Footer/> 
+
     </main> 
   );
 }
