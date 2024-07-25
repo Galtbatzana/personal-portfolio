@@ -27,8 +27,6 @@ export default function Home() {
       <Skills /> 
       <Experience/>
       <Work />
-      <Work />
-      <Work />
       <Footer/> 
 
     </main> 
