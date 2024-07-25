@@ -10,9 +10,9 @@ export function Aboutme() {
                     </p>
                 </div>
                 <div className="lg:w-[1216px] lg:flex mx-auto g-12 bg-[#F9FAFB]">
-                    <div className="sm:pb-12">
-                        <div className="sm:w-[320px] lg:w-[584px]">
-                            <Image src="/images/Pic01.png" width={400} height={480} />
+                    <div className="sm:pb-12 w-full aspect-[5/6]">
+                        <div className="sm:w-[280px] sm:h-[360px] lg:w-[584px] relative sm:right-10 bg-[slate-50]">
+                            <Image src="/images/Pic01.png" width={400} height={480} className="relative block object-cover w-full"/>
                         </div>
                     </div>
                     <div className="lg:flex-col p-4">

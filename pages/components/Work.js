@@ -44,7 +44,7 @@ const workData = [
 
 export function WorkCard ({ isReverse = false }) {
     return (
-        <div className={`shadow rounded-xl pb-4 lg:flex ${isReverse ? "lg:flex-row-reverse" : ""} `}> 
+        <div className={`shadow rounded-xl pb-4 my-6 lg:flex ${isReverse ? "lg:flex-row-reverse" : ""} `}> 
             <div className="bg-[#F3F4F6] rounded-xl mb-8 w-full">
                 <Image src="/images/work.png" width={279} height={279} className="w-full rounded-lg p-10"/>
             </div>
@@ -83,35 +83,4 @@ export function WorkCard ({ isReverse = false }) {
     )    
 };
 
-    // <div className={`shadow rounded-xl pb-4 lg:flex ${isReverse ? "lg:flex-row-reverse" : ""}`}> 
-    //     <div className="bg-slate-200 rounded-xl flex-1 mb-8">
-    //         <Image src="/images/work.png" width={279} height={279} className="w-full rounded-lg p-10"/>
-    //     </div>
-    //     <div className="flex-1 lg:p-12 sm:mx-8">
-    //         <p className="text-[#111827] font-semibold sm:w-[279px]">
-    //             Fiskil
-    //         </p>
-    //         <p className="text-[#4B5563] py-6 sm:w-[279px]">
-    //             Lorem ipsum dolor sit amet, consectetur 
-    //             adipiscing elit. Maecenas nec urna ac 
-    //             tellus volutpat viverra. Vestibulum 
-    //             ante ipsum primis in faucibus orci 
-    //             luctus et ultrices posuere cubilia curae.
-    //         </p>
-    //         <div className="flex flex-wrap pb-6 sm:w-[279px] gap-2 text-[#4B5563]">
-    //             <Tags name="React"/>
-    //             <Tags name="Next.js"/>
-    //             <Tags name="Typescript"/>
-    //             <Tags name="Nest.js"/>
-    //             <Tags name="PostgreSQL"/>
-    //             <Tags name="Tailwindcss"/> 
-    //             <Tags name="Figma"/>
-    //             <Tags name="Cypress"/>
-    //             <Tags name="Storybook"/>
-    //             <Tags name="Git"/>
-    //         </div>
-    //         <div>
-    //             <TbExternalLink />  
-    //         </div>
-    //     </div>
-    // </div>
+   
