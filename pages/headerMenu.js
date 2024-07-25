@@ -18,7 +18,7 @@ export default function Headermenu() {
         <div>
             <div className="flex justify-between">
                 <p>Switch Theme</p>
-                <LuSunMedium/>
+                <LuSunMedium onClick={Nav()}/>
             </div>
             <button className="bg-black text-white rounded-[10px] px-4 py-px ml-3">Download CV</button>
         </div>

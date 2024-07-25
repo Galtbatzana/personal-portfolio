@@ -44,7 +44,7 @@ const workData = [
 
 export function WorkCard ({ isReverse = false }) {
     return (
-        <div className={`shadow rounded-xl pb-4 my-6 lg:flex ${isReverse ? "lg:flex-row-reverse" : ""} `}> 
+        <div className={`shadow rounded-xl pb-4 lg:flex ${isReverse ? "lg:flex-row-reverse" : ""} `}> 
             <div className="bg-[#F3F4F6] rounded-xl mb-8 w-full">
                 <Image src="/images/work.png" width={279} height={279} className="w-full rounded-lg p-10"/>
             </div>

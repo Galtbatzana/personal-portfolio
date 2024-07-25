@@ -2,20 +2,20 @@ import Image from "next/image";
 
 export function Aboutme() {
     return (
-        <div className="mx-auto lg:w-[1440px] sm:w-[375px] bg-[#F9FAFB]">
+        <div className="mx-auto lg:w-[1440px] sm:w-[375px] bg-[#F9FAFB] dark:bg-[#030712]">
             <div className="mx-auto pb-4 sm:w-[343px] sm:py-16 lg:w-[1280px] lg:pb-24">
                 <div className="flex items-center justify-center sm:p-6 lg:pt-24">
-                    <p className="bg-[#E5E7EB] px-4 py-2 inline text-sm text-[#4B5563] font-medium rounded-full">
+                    <p className="bg-[#E5E7EB] px-4 py-2 inline text-sm text-[#4B5563] font-medium rounded-full dark:bg-[#374151] dark:text-[#D1D5DB]">
                         About me
                     </p>
                 </div>
                 <div className="lg:w-[1216px] lg:flex mx-auto g-12 bg-[#F9FAFB]">
-                    <div className="sm:pb-12 w-full aspect-[5/6]">
-                        <div className="sm:w-[280px] sm:h-[360px] lg:w-[584px] relative sm:right-10 bg-[slate-50]">
-                            <Image src="/images/Pic01.png" width={400} height={480} className="relative block object-cover w-full"/>
+                    <div className="sm:pb-12 lg:flex-1">
+                        <div className="sm:w-[280px] sm:h-[360px] sm:left-[8%] lg:w-[400px] lg:h-[480px] relative bg-[#E5E7EB] w-full aspect-[5/6] top-[10%] lg:left-[-5%] lg:top-[10%]">
+                            <Image src="/images/Pic01.png" width={400} height={480} className="absolute block object-cover w-full bottom-[5%] lg:relative lg:left-[5%]"/>
                         </div>
                     </div>
-                    <div className="lg:flex-col p-4">
+                    <div className="lg:flex-col p-4 lg:flex-1">
                         <div className="text-[24px] text-[#111827] sm:pb-6 lg:pb-1.5">
                             Curious about me? Here you have it:
                         </div>

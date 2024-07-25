@@ -36,7 +36,7 @@ const experiences = [
 
 export function Experience () {
     return (
-        <div className="mx-auto sm:w-[375px] lg:w-[1440px] bg-slate-300">
+        <div className="mx-auto sm:w-[375px] lg:w-[1440px] bg-[#F9FAFB]">
             <div className="mx-auto lg:w-[1216px] sm-[343px] flex-col text-center justify-center pt-24">
                     <p className="bg-[#E5E7EB] text-[#4B5563] px-[20px] py-2 inline text-sm font-medium rounded-[12px]">
                         Experiences
@@ -45,7 +45,7 @@ export function Experience () {
                         Here is a quick summary of my most recent experiences:
                     </p>
             </div>
-            <div className="mx-auto mb-8 py-4 text-[#4B5563]">
+            <div className="mx-auto py-4 text-[#4B5563]">
                 {experiences.map((Experience, index)=> (
                     <div key={index}>
                         <Card props={Experience}/>

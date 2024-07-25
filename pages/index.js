@@ -12,6 +12,7 @@ import { Tags } from "./components/Tags"
 import { Experience } from "./components/Experience";
 import { Work } from "./components/Work";
 import { Footer } from "./components/Footer";
+import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main  className="max-w-[1440px] mx-auto">
+    <main  className="max-w-[1440px] mx-auto bg-slate-100">
 
       <Header />
       <Hero />
@@ -30,8 +31,8 @@ export default function Home() {
       <Footer/> 
 
     </main> 
+
   );
 }
-
 
 

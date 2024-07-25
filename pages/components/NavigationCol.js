@@ -23,7 +23,7 @@ const navigations = [
 export function NavigationCol () {
 
     return (
-        <div className="flex flex-col gap-4 p-4 text-[#4B5563]">
+        <div className="flex flex-col gap-4 p-4 text-[#4B5563] dark:text-white">
             {navigations.map((nav)=>(
                 <Link key={nav.link} href={nav.link}>
                         {nav.name}

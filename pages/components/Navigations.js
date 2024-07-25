@@ -23,7 +23,7 @@ const navigations = [
 export function Navigations () {
 
     return (
-        <div className="flex mt-1.5 gap-6 justify-items-center justify-between items-center text-[#4B5563]">
+        <div className="flex mt-1.5 gap-6 justify-items-center justify-between items-center text-[#4B5563] dark:text-white">
             {navigations.map((nav)=>(
                 <Link key={nav.link} href={nav.link}>
                         {nav.name}
