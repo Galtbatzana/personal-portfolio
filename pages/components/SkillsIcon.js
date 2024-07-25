@@ -74,8 +74,8 @@ export function SkillsIcon () {
         <div className="grid sm:grid-cols-3 lg:grid-cols-8 lg:gap-y-16 text-[#4B5563] gap-x-[58px] gap-y-[16px] items-center justify-center">
             {skillsicon.map((skill)=>(
                 <div className="flex flex-col justify-center items-center" key={skill.name}>
-                    <img src={skill.icon} />
-                    <div className="mt-2">
+                    <img src={skill.icon}/>
+                    <div className="mt-2 dark:text-white">
                         {skill.name}
                     </div>
                 </div>    

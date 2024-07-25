@@ -53,7 +53,7 @@ export function Header() {
                 </div>
                 
                 <div className="lg:hidden flex justify-items-center items-center p-4">
-                    <GiHamburgerMenu onClick={openBurger} className="size-8"/>
+                    <GiHamburgerMenu onClick={openBurger} className="size-8 text-[#4B5563]"/>
                 </div>
 
                 <div className={open ? 'block' : 'hidden'}>

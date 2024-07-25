@@ -10,9 +10,9 @@ import { FiFigma } from "react-icons/fi";
 
 export function Hero() {
     return (
-        <div className="mx-auto sm:w-[375px] lg:w-[1440px] bg-white">
+        <div className="mx-auto sm:w-[375px] lg:w-[1440px] bg-white dark:bg-[#030712]">
             <div className="mx-auto sm:w-[375px] lg:w-[1280px]">
-                <div className="lg:flex justify-between lg:mx-20 lg:py-[96px] bg-white gap-12 dark:bg-[#111827]">
+                <div className="lg:flex justify-between lg:mx-20 lg:py-[96px] bg-white gap-12 dark:bg-[#030712]">
                     <div className="lg:order-2 sm:py-16 mx-4">
                         <div className="h-[300px] w-[343px] relative">
                             <div className="h-[280px] w-[280px] absolute bg-[#E5E7EB] right-[35px] top-[30px]">

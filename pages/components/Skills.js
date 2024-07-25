@@ -5,13 +5,13 @@ import Image from "next/image";
 
 export function Skills () {
     return (
-        <div className="mx-auto py-5 sm:w-[375px] lg:w-[1440px] bg-white">
+        <div className="mx-auto py-5 sm:w-[375px] lg:w-[1440px] bg-white dark:bg-[#030712]">
             <div className="sm:w-[343px] sm:py-[64px] mx-auto lg:w-[1280px] lg:mt-12 p-2 ">
                 <div className="flex-col text-center justify-center">
-                    <p className="bg-[#E5E7EB] text-[#4B5563] px-4 py-2 inline text-sm font-medium rounded-full">
+                    <p className="bg-[#E5E7EB] text-[#4B5563] px-4 py-2 inline text-sm font-medium rounded-full dark:bg-[#374151] dark:text-[#D1D5DB]">
                         Skills
                     </p>
-                    <p className="m-4 p-2 text-[#4B5563] mb-16">
+                    <p className="m-4 p-2 text-[#4B5563] mb-16 dark:text-white">
                         The skills, tools and Technologies I am really good at:
                     </p>
                 </div>

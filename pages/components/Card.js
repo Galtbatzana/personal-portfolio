@@ -4,7 +4,7 @@ export const Card = ({props}) => {
 
     return (
         <div className="sm:w-[343px] lg:w-[896px] mx-auto mt-12">
-            <div className="flex sm:flex-col lg:flex-row mx-auto px-8 py-8 gap-3 bg-white rounded-xl shadow-md">
+            <div className="flex sm:flex-col lg:flex-row mx-auto px-8 py-8 gap-3 bg-white rounded-xl shadow-md dark:bg-[#1F2937] dark:text-white">
                 <div className="lg:order-1 w-[254px]">
                     <img src="/images/logo-upwork.png"/>
                 </div>
