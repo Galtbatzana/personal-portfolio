@@ -1,18 +1,18 @@
-import Image from "next/image";
+// import Image from "next/image";
 import { Inter } from "next/font/google";
-import { Header } from "./components/header";
-import { Hero } from "./components/hero";
-import { Skills } from "./components/Skills";
-import { Aboutme } from "./components/AboutMe";
-import { Example } from "./Example";
-import { Visible } from "./components/Visible";
-import { Davtalt } from "./components/Davtalt";
-import { Props } from "./components/Props";
-import { Tags } from "./components/Tags"
-import { Experience } from "./components/Experience";
-import { Work } from "./components/Work";
-import { Footer } from "./components/Footer";
-import { useState } from "react";
+import { Header } from "../components/header";
+import { Hero } from "../components/hero";
+import { Skills } from "../components/Skills";
+import { Aboutme } from "../components/AboutMe";
+// import { Example } from "./Example";
+// import { Visible } from "../components/Visible";
+// import { Davtalt } from "../components/Davtalt";
+// import { Props } from "../components/Props";
+// import { Tags } from "../components/Tags"
+import { Experience } from "../components/Experience";
+import { Work } from "../components/Work";
+import { Footer } from "../components/Footer";
+// import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 

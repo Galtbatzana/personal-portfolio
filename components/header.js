@@ -1,7 +1,7 @@
-import Image from "next/image";
+// import Image from "next/image";
 import { LuSunMedium } from "react-icons/lu";
 import { GiHamburgerMenu } from "react-icons/gi";
-import Link from "next/link";
+// import Link from "next/link";
 import { Navigations } from "./Navigations";
 import { IoMdClose } from "react-icons/io";
 import { NavigationCol } from "./NavigationCol";

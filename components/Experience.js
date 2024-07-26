@@ -1,4 +1,4 @@
-import { Tags } from "./Tags";
+// import { Tags } from "./Tags";
 import { Card } from "./Card";
 
 const experiences = [

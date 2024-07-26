@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { Tags } from "./Tags";
+// import Link from "next/link";
+// import { Tags } from "./Tags";
 import { MdMailOutline } from "react-icons/md";
 import { BiWindows } from "react-icons/bi";
 import { FiPhone } from "react-icons/fi";

@@ -1,8 +1,8 @@
-import { Aboutme } from "./AboutMe";
+// import { Aboutme } from "./AboutMe";
 import { Handwaving } from "./Handwaving";
 import Image from "next/image";
 import { IoLocationOutline } from "react-icons/io5";
-import { GoDotFill } from "react-icons/go";
+// import { GoDotFill } from "react-icons/go";
 import { LuGithub } from "react-icons/lu";
 import { FiTwitter } from "react-icons/fi";
 import { FiFigma } from "react-icons/fi";
